@@ -1,0 +1,1 @@
+git svn log | grep "^r" | tail --lines=1

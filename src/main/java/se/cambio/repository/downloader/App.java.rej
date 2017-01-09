@@ -1,0 +1,10 @@
+diff a/repo-downloader/src/main/java/se/cambio/powershell/PowerShell/App.java b/repo-downloader/src/main/java/se/cambio/powershell/PowerShell/App.java	(rejected hunks)
+@@ -39,7 +39,7 @@
+     int count = 1;
+     if ((args.length != 3))
+     {
+-      System.out.println("The argument should contain the filename and  repo folder path");
++      System.out.println("The argument should contain the \\init\\filename.txt, repository\\reops\\ folder path and SeriviceName");
+       System.out.println("--------Help-------");
+       System.out.println("Argument1:" + "repositories_url.txt");
+       System.out.println("Argument2:" + "root path of repositories");
